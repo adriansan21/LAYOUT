@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  border: red thin solid;
+}
+
+
+#header {
+  background-color: #41cdc6;
+}
+
+#menu ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #2e2e2e;
+}
+
+#menu > ul > li{
+  display: inline-block;
+  padding: 0.2em;
+}
+
+#sidebar {
+  background-color: #f8f8f8;
+  padding: 1em;
+}
+
+.sidebar-title {
+  font-size: 0.6em;
+  font-weight: bolder;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-image {
+  width: 100%;
+  max-width: 100%
+}
