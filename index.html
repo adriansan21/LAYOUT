@@ -4,10 +4,22 @@
     <meta charset="utf-8">
     <title>LAYOUT</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
   </head>
   <body>
 
-    <div id="header">HEADER</div>
+    <div id="header">
+      <div id="logo">
+        <div id="logo-title">Béhance</div>
+          <div id="logo-main">Student<span>Show</span></div>
+          <div id="logo-description">Showcase & Discover<br/>Creative Work by Students</div>
+
+      </div>
+    </div>
+
+
+
+
 
 
     <div id="menu">
@@ -15,8 +27,14 @@
         <li class="menutext">GALLERY</li>
         <li class="menutext">ABOUT</li>
         <li class="menutext">Sign Up & Showcase Your Work</li>
-        <li class="menutext">Login</li>
+        <li class="menutext"><i class="fa-solid fa-lock"></i> Login</li>
+        <li id="search-bar" >
+          Search
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" />
+        </li>
       </ul>
+
     </div>
 
 
@@ -71,9 +89,9 @@
             <div class="card-subtitle">by John Doe</div>
             <div class="card-reviews">
               <span></span>
-              <span class="card-likes">134</span>
+              <span class="card-likes"><i class="fa-solid fa-thumbs-up"></i> 134</span>
               <span></span>
-              <span class="card-views">504</span>
+              <span class="card-views"><i class="fa-solid fa-eye"></i> 504</span>
             </div>
             <div class="card-footer">
               Art. Puig Castellar
@@ -89,9 +107,9 @@
               <div class="card-subtitle">by John Doe</div>
               <div class="card-reviews">
                 <span></span>
-                <span class="card-likes">134</span>
+                <span class="card-likes"><i class="fa-solid fa-thumbs-up"></i> 134</span>
                 <span></span>
-                <span class="card-views">504</span>
+                <span class="card-views"><i class="fa-solid fa-eye"></i> 504</span>
               </div>
               <div class="card-footer">
                 Art. Puig Castellar
@@ -106,9 +124,9 @@
               <div class="card-subtitle">by John Doe</div>
               <div class="card-reviews">
                 <span></span>
-                <span class="card-likes">234</span>
+                <span class="card-likes"><i class="fa-solid fa-thumbs-up"></i> 234</span>
                 <span></span>
-                <span class="card-views">604</span>
+                <span class="card-views"><i class="fa-solid fa-eye"></i> 604</span>
               </div>
               <div class="card-footer">
                 Art, Puig Castellar
@@ -123,9 +141,9 @@
               <div class="card-subtitle">by John Doe</div>
               <div class="card-reviews">
                 <span></span>
-                <span class="card-likes">234</span>
+                <span class="card-likes"><i class="fa-solid fa-thumbs-up"></i> 234</span>
                 <span></span>
-                <span class="card-views">604</span>
+                <span class="card-views"><i class="fa-solid fa-eye"></i> 604</span>
               </div>
               <div class="card-footer">
                 Art, Puig Castellar
@@ -140,9 +158,9 @@
               <div class="card-subtitle">by John Doe</div>
               <div class="card-reviews">
                 <span></span>
-                <span class="card-likes">234</span>
+                <span class="card-likes"><i class="fa-solid fa-thumbs-up"></i> 234</span>
                 <span></span>
-                <span class="card-views">604</span>
+                <span class="card-views"><i class="fa-solid fa-eye"></i> 604</span>
               </div>
               <div class="card-footer">
                 Art, Puig Castellar
@@ -157,9 +175,9 @@
               <div class="card-subtitle">by John Doe</div>
               <div class="card-reviews">
                 <span></span>
-                <span class="card-likes">234</span>
+                <span class="card-likes"><i class="fa-solid fa-thumbs-up"></i> 234</span>
                 <span></span>
-                <span class="card-views">604</span>
+                <span class="card-views"><i class="fa-solid fa-eye"></i> 604</span>
               </div>
               <div class="card-footer">
                 Art, Puig Castellar
@@ -172,25 +190,76 @@
 
 
 
-        <div id="banner">BANNER</div>
-    </div>
+        <div id="banner">
+          <img src="images/banner.png" alt="">
+        </div>
 
+
+    </div>
 
 
     <div class="footer">
-      <div class="">
+      <div class=""></div>
+
+      <div id="footer-columns">
+        <ul>
+          <h4 class=footer-title>OFFER TEAM</h4>
+            <li class="footer-column">SELL</li>
+            <li class="footer-column">BUY</li>
+            <li class="footer-column">PRICING</li>
+            <li class="footer-column">BENEFITS</li>
+            <li class="footer-column">HOW IT WORKS</li>
+            <li class="footer-column">ABOUT</li>
+        </ul>
+
+
+        <ul>
+          <h4 class=footer-title>LOCATIONS</h4>
+            <li class="footer-column">RALEIGH</li>
+            <li class="footer-column">DURHAM</li>
+            <li class="footer-column">CHAPEL HILL</li>
+            <li class="footer-column">CARY</li>
+            <li class="footer-column">APEX</li>
+            <li class="footer-column">CHARLOTTE</li>
+        </ul>
+
+
+        <ul>
+          <h4 class=footer-title>CONNECT</h4>
+            <li class="footer-column">888-123-1234</li>
+            <li class="footer-column">EMAIL US</li>
+            <li class="footer-column">FACEBOOK</li>
+            <li class="footer-column">TWITTER</li>
+            <li class="footer-column">LINKEDIN</li>
+            <li class="footer-column">INSTAGRAM</li>
+        </ul>
+
+
+        <ul>
+          <h4 class=footer-title>FIND US</h4>
+            <li class="footer-column">123 Main St</li>
+            <li class="footer-column">Raleigh NC. 27704</li>
+            <li class="footer-column">North Carolina</li>
+            <li class="footer-column">888-123-1234</li>
+        </ul>
+
+
+
+
+
+
+
 
       </div>
-
-      <div class="footer-element">
-        <div>1</div>
-        <div>1</div>
-        <div>1</div>
-        <div>1</div>
-      </div>
-
 
     </div>
+
+
+
+
+
+
+
 
 
 
